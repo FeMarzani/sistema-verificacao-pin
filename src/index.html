@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Verificação de PIN</title>
+</head>
+<body>
+    
+    <h1>Sistema de Verificação de PIN - Personal Identification Number</h1>
+    <p><b>Como utilizar:</b> O PIN foi gerado automaticamente ao acessar este site. Insira um número entre 0 e 100 para a verificação.</p>
+    
+    <!-- Instrução para o Usuário, caso ele queira testar o pin verdadeiro diretamente, ou ver o pin atualizando. -->
+    <p class="colinha">Caso queiras testar o PIN verdadeiro, pegue ele no console do navegador!</p>
+
+    <!-- Abrindo uma tabela para a inserção dos objetos da tela -->
+
+    <table>
+        <tr>
+            <td><input type="number" id="num" placeholder="Digite aqui para adivinhar:"></td>
+
+            <!-- Chamando a função dentro da coluna td abaixo para invocar a função do JS para ler e retornar -->
+            <td><button onclick="">Enviar</button></td>
+        </tr>
+    </table>
+
+    <p id="resultado" class="resultado"></p>
+
+</body>
+</html>
