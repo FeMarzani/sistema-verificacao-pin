@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Verificação de PIN</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     
@@ -21,7 +22,7 @@
             <td><input type="number" id="num" placeholder="Digite aqui para adivinhar:"></td>
 
             <!-- Chamando a função dentro da coluna td abaixo para invocar a função do JS para ler e retornar -->
-            <td><button onclick="">Enviar</button></td>
+            <td><button onclick="verificarNumero(lerNumero())">Enviar</button></td>
         </tr>
     </table>
 
